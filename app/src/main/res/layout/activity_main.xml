@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/navyblue" >
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Garbage Sorter"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <Button
+        android:textSize = "20sp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:textSize = "20sp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button"
+        android:layout_margin="30dp"
+        android:layout_alignParentLeft="true"
+        android:text="Recycle" />
+
+    <Button
+        android:textSize = "20sp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:text="Compost" />
+
+    <Button
+        android:textSize = "20sp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button1"
+        android:layout_margin="30dp"
+        android:layout_alignParentLeft="true"
+        android:text="Waste" />
+
+
+    <Button
+        android:textSize = "20sp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button2"
+        android:layout_margin="30dp"
+        android:layout_alignParentRight="true"
+        android:text="Hazardous" />
+
+
+</RelativeLayout>

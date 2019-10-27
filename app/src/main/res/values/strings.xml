@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">GarbageSorter</string>
+
+    <string-array name="my_waste">
+        <item>Broken Glass</item>
+        <item>Ceramics</item>
+        <item>Diapers</item>
+        <item>Film Plastic: Plastic Wrap, Bags, Bubble Wrap</item>
+        <item>Food-Soiled Paper Products</item>
+        <item>Food Wrappers</item>
+        <item>Halogen Light Bulbs</item>
+        <item>Incandescent Light Bulbs</item>
+        <item>LED Light Bulbs</item>
+        <item>Menstrual Waste</item>
+        <item>Single-Use Batteries (In California)</item>
+        <item>Styrofoam</item>
+        <item>Used Condoms</item>
+        <item>Used Kleenex Tissues</item>
+        <item>Used Paper Towels</item>
+        <item>Wax Paper</item>
+    </string-array>
+
+    <string-array name="my_compost">
+        <item>Lawn Clippings</item>
+        <item>Plants</item>
+        <item>Pure Wood</item>
+        <item>Sawdust</item>
+        <item>Unprocessed Food (Not Meat/Oil): Vegetable Scraps, Grains, Dairy</item>
+    </string-array>
+
+    <string-array name="my_recycle">
+        <item>Aluminum (Metal)</item>
+        <item>Brass (Metal)</item>
+        <item>Bronze (Metal)</item>
+        <item>Cardboard</item>
+        <item>Cast Iron (Metal)</item>
+        <item>Copper (Metal)</item>
+        <item>Empty Aerosol Cans</item>
+        <item>Glass Bottles/Cans</item>
+        <item>Paper</item>
+        <item>Plastic Bottles</item>
+        <item>Plastic Containers</item>
+        <item>Steel (Metal)</item>
+        <item>Tin (Metal)</item>
+    </string-array>
+
+    <string-array name="my_hazardous">
+        <item>Chemistry Lab Chemicals</item>
+        <item>Cleaning Supplies</item>
+        <item>Electronics</item>
+        <item>Empty Ink Cartridges</item>
+        <item>Fluorescent Light Bulbs</item>
+        <item>Full Aerosol Cans</item>
+        <item>Insecticides</item>
+        <item>Lead Products</item>
+        <item>Paint</item>
+        <item>Pharmaceutical: Antibiotics, Injectables, Pills</item>
+        <item>Rechargeable Batteries</item>
+        <item>Sharps: Blades, Needles, Razors, Staples</item>
+        <item>Trace Chemo Container: Used Needles, Used Syringes</item>
+    </string-array>
+
+    <string-array name="my_all">
+        <item>Aluminum (Metal)</item>
+        <item>Brass (Metal)</item>
+        <item>Broken Glass</item>
+        <item>Bronze (Metal)</item>
+        <item>Cardboard</item>
+        <item>Cast Iron (Metal)</item>
+        <item>Ceramics</item>
+        <item>Chemistry Lab Chemicals</item>
+        <item>Cleaning Supplies</item>
+        <item>Copper (Metal)</item>
+        <item>Diapers</item>
+        <item>Electronics</item>
+        <item>Empty Aerosol Cans</item>
+        <item>Empty Ink Cartridges</item>
+        <item>Film Plastic: Plastic Wrap, Bags, Bubble Wrap</item>
+        <item>Fluorescent Light Bulbs</item>
+        <item>Food-Soiled Paper Products</item>
+        <item>Food Wrappers</item>
+        <item>Full Aerosol Cans</item>
+        <item>Glass Bottles/Cans</item>
+        <item>Halogen Light Bulbs</item>
+        <item>Incandescent Light Bulbs</item>
+        <item>Insecticides</item>
+        <item>Lawn Clippings</item>
+        <item>Lead Products</item>
+        <item>LED Light Bulbs</item>
+        <item>Menstrual Waste</item>
+        <item>Paint</item>
+        <item>Paper</item>
+        <item>Pharmaceutical: Antibiotics, Injectables, Pills</item>
+        <item>Plants</item>
+        <item>Plastic Bottles</item>
+        <item>Plastic Containers</item>
+        <item>Pure Wood</item>
+        <item>Rechargeable Batteries</item>
+        <item>Sawdust</item>
+        <item>Sharps: Blades, Needles, Razors, Staples</item>
+        <item>Single-Use Batteries (In California)</item>
+        <item>Steel (Metal)</item>
+        <item>Styrofoam</item>
+        <item>Tin (Metal)</item>
+        <item>Trace Chemo Container: Used Needles, Used Syringes</item>
+        <item>Unprocessed Food (Not Meat/Oil): Vegetable Scraps, Grains, Dairy</item>
+        <item>Used Condoms</item>
+        <item>Used Kleenex Tissues</item>
+        <item>Used Paper Towels</item>
+        <item>Wax Paper</item>
+    </string-array>
+
+</resources>
+
+<!--Intention: Database storing each Item containing descriptions of the item, pictures, and
+locations for disposal of the Item. Ability to click into each item in the search list and view
+details stemming from the database.-->
