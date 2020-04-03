@@ -7,6 +7,4 @@ As students, we don't have time to think about where to throw away certain waste
 Garbage Sorter is an application that tells users where their trash should be disposed. Broken down into various categories (Waste, Compost, Recycling, Hazardous Waste), users can find information on which categories their trash belongs in. In addition, Garbage Sorter was intended to include a database containing descriptions and images of the items as well as the locations of the bins on campus that collect each particular item.
 
 # Programs Used:
-Android Studio
-Kotlin
-Java
+Android Studio, Kotlin, Java
